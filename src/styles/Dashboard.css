@@ -1,55 +1,55 @@
 /* Dashboard.css */
 .dashboard-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #eef2f7;
-  }
-  
-  .dashboard-card {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 8px;
-    width: 100%;
-    max-width: 500px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    text-align: center;
-  }
-  
-  .warning-message {
-    color: #f44336;
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  
-  .info-message {
-    color: #4caf50;
-    font-size: 16px;
-    margin-top: 15px;
-  }
-  
-  .button {
-    width: 100%;
-    padding: 12px;
-    margin: 10px 0;
-    background-color: #007bff;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  .button:hover {
-    background-color: #0056b3;
-  }
-  
-  .button.logout {
-    background-color: #e53935;
-  }
-  
-  .button.logout:hover {
-    background-color: #c62828;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffe4e1; /* Light pink background */
+}
+
+.dashboard-card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Cute font */
+}
+
+.warning-message {
+  color: #f44336;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.info-message {
+  color: #4caf50;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  background-color: #ff69b4; /* Pink button background */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: inherit;
+}
+.button:hover {
+  background-color: #ff1493; /* Darker pink on hover */
+}
+
+.button.logout {
+  background-color: #e53935;
+}
+
+.button.logout:hover {
+  background-color: #c62828;
+}
